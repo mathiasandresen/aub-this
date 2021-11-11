@@ -1,0 +1,23 @@
+{
+  "name": "AUB This",
+  "description": "A button that allows you to look up webpage using AUBs search engine",
+  "version": "0.1",
+  "icons": {
+    "16": "assets/aub_this_logo16.png",
+    "48": "assets/aub_this_logo48.png",
+    "128": "assets/aub_this_logo128.png"
+  },
+  "manifest_version": 3,
+  "action": {
+    "default_icon": {
+      "16": "assets/aub_this_logo16.png",
+      "48": "assets/aub_this_logo48.png",
+      "128": "assets/aub_this_logo128.png"
+    },
+    "default_title": "AUB This"
+  },
+  "permissions": ["activeTab", "scripting"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
